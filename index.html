@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- CUSTOM FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+    <title>TV Shows</title>
+</head>
+<body>
+    <div class="header-container" id="main">
+        <div class="title" id="title-banner">
+            <img src="./img/tv-svgrepo-com.svg" alt="tv">
+            <h1> TV Shows </h1>
+        </div>
+        
+        <div class="box-search" id="box-search-tv">
+            <input type="text" id="text-search">
+            <button class="btn-search" id="search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <section id="shows" class="grid-shows"></section>
+    
+    <template id="show-template">
+      <article class="show">
+        <h3></h3>
+        <div></div>
+        <img>
+      </article>
+    </template>
+
+    <script src="main.js"></script>
+</body>
+</html>
