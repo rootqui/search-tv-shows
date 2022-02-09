@@ -26,8 +26,6 @@ function styleAfterResults(){
 }
 
 function createCardsTVShow(data, query){
-    console.log(data.length)
-    console.log(data)
     if(data.length !== 0){
         data.forEach(el => {
             template.querySelector("h3").textContent = el.show.name;
